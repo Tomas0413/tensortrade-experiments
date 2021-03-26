@@ -33,3 +33,30 @@ action_scheme = ManagedRiskOrders()
 
 
 TensorBoard charts are avaiabe [here](https://github.com/Tomas0413/tensortrade-experiments/blob/main/TensorBoard.pdf). 
+
+```
+# pip show tensortrade
+Name: tensortrade
+Version: 1.0.2.dev0
+Summary: TensorTrade: A reinforcement learning library for training, evaluating, and deploying robust trading agents.
+Home-page: https://github.com/tensortrade-org/tensortrade
+Author: Adam King <adamjking3@gmail.com>, Matthew Brulhardt <mwbrulhardt@gmail.com>
+Author-email: None
+License: Apache 2.0
+Location: /data/stock-insights/tensortrade/tensortrade
+Requires: numpy, pandas, gym, pyyaml, stochastic, tensorflow, ipython, matplotlib, plotly
+Required-by: 
+```
+```
+# pip show ray
+Name: ray
+Version: 2.0.0.dev0
+Summary: Ray provides a simple, universal API for building distributed applications.
+Home-page: https://github.com/ray-project/ray
+Author: Ray Team
+Author-email: ray-dev@googlegroups.com
+License: Apache 2.0
+Location: /root/anaconda3/lib/python3.8/site-packages
+Requires: click, colorful, filelock, requests, aioredis, prometheus-client, aiohttp-cors, jsonschema, numpy, aiohttp, cloudpickle, msgpack, gpustat, protobuf, grpcio, colorama, opencensus, py-spy, pyyaml, redis
+Required-by: 
+```
